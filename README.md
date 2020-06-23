@@ -2,7 +2,7 @@
 
 ## English
 
-This is a simple Batch script that I wrote because I'm bored. Its a simulation of the game explained in [this video.](https://www.youtube.com/watch?v=fjuPe3VdHB0) (in spanish).
+This is a simple Batch script that I wrote because I'm bored. Its a simulation of the game explained in [this video](https://www.youtube.com/watch?v=fjuPe3VdHB0) (in spanish).
 
 ### Is this .bat script safe?
 [Absolutely](https://www.virustotal.com/gui/file/3e5b5becc7ad349d24471999553f82e94e607a6e9a5b6bf9f3f95a842ff538a9/detection). You can also check the source code, it's on [GitHub](https://github.com/ThePotatoCamera/happymommy).
