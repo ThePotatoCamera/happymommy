@@ -4,33 +4,33 @@ title HAPPY MOMMY
 
 :start
 echo READY
-set /p start=
-   if /i "%answer:~,1%" EQU "G" goto dayone
+set /p start=""
+   if /i "%start%"=="GO" goto one
 goto start
 
-:dayone
-echo happy mommy 1 day gone
-set /p dayone=
-    if /i "%dayone:~,1%" EQU "M" goto daytwo
-goto dayone
+:one
+echo HAPPY MOMMY 1 DAY GONE
+set /p dayone=""
+    if /i "%dayone%"=="MOMMY" goto two
+goto one
 
-:daytwo
-echo happy mommy 2 days gone
-set /p daytwo=
-    if /i "%daytwo:~,1%" EQU "M" goto daythree
-goto daytwo
+:two
+echo HAPPY MOMMY 2 DAYS GONE
+set /p daytwo=""
+    if /i "%daytwo%"=="MOMMY" goto three
+goto two
 
-:daythree
-echo happy mommy 3 days gone
-set /p daythree=
-    if /i "%daythree:~,1%" EQU "F" goto dayfour
-goto daythree
+:three
+echo HAPPY MOMMY 3 DAYS GONE
+set /p daythree=""
+    if /i "%daythree%" EQU "FEELS GOOD" goto four
+goto three
 
-:dayfour
-echo happy mommy 4 days gone
+:four
+echo HAPPY MOMMY 4 DAYS GONE
 timeout 2 > NUL
-echo happy mommy feels good
+echo HAPPY MOMMY FEELS GOOD
 timeout 2 > NUL
-echo happy mommy feels good!!
+echo HAPPY MOMMY FEELS GOOD!!
 timeout 3 > NUL
 cls
